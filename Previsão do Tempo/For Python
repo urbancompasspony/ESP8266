@@ -1,0 +1,43 @@
+
+    # Temperatura em Fahrenheit - Direto do sensor!
+    # Nao arredondar para aumentar precisao, caso use.
+    #tempf = (1500/100) * (1.8) + 32 #15grau
+    #tempf = str(tempf).replace("F","")
+    #print(tempf) # Debug
+
+# DICAS DISPLAY #
+
+# Resolução do Display: 128x64
+# Display Textual: Até 16 colunas; até 6 linhas
+
+# hline/vline (hor.ver.): x, y, comprimento, cor
+# line (segmento de reta): x1, y1, x2, y2, c (diagonais)
+# rect (retangulo): x, y, comprimento, largura, cor
+# text (texto): x, y, cor
+# scroll (deslizar conteudo da tela pro lado): X/-x, Y/-y
+# disp.contrast (brilho de tela): 0 a 255
+# invert(1): troca cor da tela
+
+# WIFI
+# ap.ifconfig(('', '255.255.255.0', '192.168.0.1', '208.67.222.222')) 
+# Default: ('192.168.4.1', '255.255.255.0', '192.168.4.1', '208.67.222.222')
+
+# Se ESP8266 sem Display, comentar dispZ 1 ao 5
+
+# Pressão Atmosferica
+# 1.013,25 mBar = hPa
+# Cada 8 m = -1 hPa
+# Uberaba X
+# Rifaina Y
+
+# TempF 59F=15C 77F=25C
+
+# LOGICA PREVTEMP: 
+  
+# 1. AUMENTO DO BARÔMETRO + AUMENTO DA TEMPERATURA = TEMPO BOM, COM VENTOS SECOS E QUENTES;
+# 3. AUMENTO DO BARÔMETRO + DIMINUIÇÃO DA TEMPERATURA = TEMPO BOM, COM VENTO FRIO;
+# 7. DIMINUIÇÃO DO BARÔMETRO + AUMENTO DA TEMPERATURA = TEMPO INSTÁVEL, COM PROBABILIDADE DE APROXIMAÇÃO DE FRENTE;
+# 8. DIMINUIÇÃO DO BARÔMETRO + INALTERAÇÃO DA TEMPERATURA = APROXIMAÇÃO DE FRENTE QUENTE, COM PROBABILIDADE DE CHUVAS;
+
+# A. Pressão Aumenta, Altitude Diminui
+# B. Pressão Diminui, Altitude Aumenta
