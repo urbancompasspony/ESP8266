@@ -1,0 +1,54 @@
+
+Step 1
+Leia a temperatura em graus Fahrenheit no seu termômetro. Por exemplo, a temperatura é 37 F (2,8°C). Para transformar de Celsius em Fahrenheit use a seguinte fórmula 
+[°C x 1,8 + 32]
+
+Step 2
+Multiplique a pressão atmosférica em hectopascal por 100 usando uma calculadora científica. Por exemplo, se a pressão for 1037 hPa: 1037 x 100 = 103700.
+
+Step 3
+Divida o resultado por 1013,25 usando a calculadora. No exemplo, 103700/101325 = 1,2034
+
+Step 4
+Ache o logaritmo natural da sua resposta. Por exemplo, ln(1,2034) = 0,02316.
+
+Step 5
+Multiplique a resposta por 287,053. No exemplo, 0,02316 x 287,053 = 6,6507.
+
+Step 6
+Pegue a resposta e multiplique pela soma da temperatura mais 459,67 vezes 5/9. Seguindo o exemplo, 6,6507 x [(37+459,67) x 5/9] = 1835,116.
+
+Step 7
+Divida esse valor por -9,8. Por exemplo, 1835,116/-9,8 = -187,25. Sua altitude é -187,25, ou 187,25 m abaixo do nível do mar.
+
+###########################################################################################################################################################################
+
+OK
+Read the temperature in Fahrenheit degrees on your thermometer. For example, the temperature is 37 F.
+
+OK
+Multiply the atmospheric pressure in hectopascals times 100 using a scientific calculator. For example, the pressure is 1037 hPa: 1037 x 100 = 103700.
+
+Divide your answer by 101325 using a scientific calculator. For example, 103700/101325 = 1.2034.
+
+Take the natural log of your answer using a scientific calculator. For example, ln (1.2034) = 0.02316.
+
+Multiply your answer times 287.053 using a scientific calculator. For example, 0.02316 x 287.053 = 6.6507.
+
+Multiply your answer times the product of the temperature plus 459.67 and 5/9 using a scientific calculator. For example, 6.6507 x [(37 + 459.67) x 5/9] = 1835.116.
+
+Divide your answer by -9.8 using a scientific calculator. For example, 1835.116/-9.8 = -187.25. Your altitude is -187.25 meters, or 187.25 meters below sea level.
+
+###########################################################################################################################################################################
+
+Temperatura (C):  25.55
+Temperatura (F):  77.86
+Pressão (hPa):  925.16
+Umidade (%):  52.79
+
+92516/101325
+1,095215963
+0.0909514*287.053
+26,107872224 x [(77.86 + 459.67) x 5/9] = 7796,535864759
+
+
