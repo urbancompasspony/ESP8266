@@ -1,3 +1,11 @@
+# Driver
+
+sudo apt install esptool
+
+or
+
+sudo pacman -S esptool
+
 # ESP8266
 
 HOW TO TURN ON:
